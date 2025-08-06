@@ -1,0 +1,88 @@
+{
+    "intents": [
+        {
+            "tag": "crear_evento",
+            "patterns": [
+                "Crea un evento para mi junta de trabajo",
+                "Quiero crear un evento el próximo martes a las 4 pm",
+                "Programa una reunión el lunes a las 10 am"
+            ],
+            "responses": [
+                "Claro, estoy configurando el evento con el título '[Título del evento]' para el día [Fecha y hora del evento]."
+            ]
+        },
+        {
+            "tag": "consultar_eventos",
+            "patterns": [
+                "Consulta los eventos para esta semana",
+                "¿Qué eventos tengo programados hoy?",
+                "Consulta los eventos entre el 2024-12-01 y el 2024-12-15"
+            ],
+            "responses": [
+                "Aquí tienes los eventos programados entre [Fecha inicio] y [Fecha fin]."
+            ]
+        },
+        {
+            "tag": "enviar_correo",
+            "patterns": [
+                "Manda un correo a Juan con el asunto 'Reunión' y mensaje 'Te espero mañana a las 10 am'",
+                "Envía un correo a mi cuenta personal con el asunto 'Recordatorio' y mensaje 'No olvides enviar el informe mañana'",
+                "Envía un correo al grupo de ingeniería con el asunto 'Plan de proyecto' y mensaje 'Necesitamos los avances para la próxima semana'"
+            ],
+            "responses": [
+                "Estoy preparando el correo para [Nombres destinatarios] con el asunto '[Asunto del correo]'."
+            ]
+        },
+        {
+            "tag": "enviar_grupo",
+            "patterns": [
+                "Manda un correo al grupo de ventas con el asunto 'Reporte semanal' y mensaje 'Revisen el documento adjunto'",
+                "Envía un correo al grupo de marketing con el asunto 'Estrategias' y mensaje 'Revisemos las propuestas del mes'"
+            ],
+            "responses": [
+                "Estoy preparando el correo para el grupo '[Nombre del grupo]' con el asunto '[Asunto del correo]'."
+            ]
+        },
+        {
+            "tag": "guardar_contacto",
+            "patterns": [
+                "Guarda un contacto llamado Sofía",
+                "Añade a Carla como un nuevo contacto"
+            ],
+            "responses": [
+                "Estoy guardando el contacto con el nombre '[Nombre del contacto]'."
+            ]
+        },
+        {
+            "tag": "crear_grupo",
+            "patterns": [
+                "Crea un grupo llamado 'Desarrollo'",
+                "¿Puedes crear un grupo llamado 'Logística'?"
+            ],
+            "responses": [
+                "Estoy creando el grupo llamado '[Nombre del grupo]'."
+            ]
+        },
+        {
+            "tag": "añadir_a_grupo",
+            "patterns": [
+                "Añade a Ana, Pedro y Luis al grupo de marketing",
+                "Añade a Miguel al grupo de Recursos Humanos"
+            ],
+            "responses": [
+                "Estoy añadiendo a [Nombres de usuarios] al grupo '[Nombre del grupo]'."
+            ]
+        },
+        {
+            "tag": "controlar_carro",
+            "patterns": [
+                "Activa el carro en el puerto COM3",
+                "El carro está en el puerto COM5, conéctalo",
+                "Conéctame con el carro en el puerto COM7"
+            ],
+            "responses": [
+                "Conectando con el carro en el puerto [Puerto del carro]."
+            ]
+        }
+    ]
+}
